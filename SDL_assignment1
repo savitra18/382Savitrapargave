@@ -1,0 +1,63 @@
+Assignment 1.A 
+#To print "Hello world"
+
+str="Hello World"
+print(str)
+
+Assignment 1.B
+#To create a list 
+list1=[1 2 3 4 5]
+print(list1)
+
+#To insert element at position
+list1.insert(5,6)
+print("after inserting element",list1)
+
+# To remove element 
+list1.remove(6)
+print(list1)
+
+#To append the element in list 
+list1.append(0)
+print(list1)
+
+
+#To sort the list 
+list1.sort()
+print(list1)
+
+#To reverse the list 
+list1.reverse()
+print(list1)
+
+Assignment 1.C
+#To read two integers from STDIN &perform addition, subtraction, product.
+no1=int(input ("Enter the first no="))
+no2=int(input ("Enter the second no="))
+print("No1=",no1)
+print("No2=",no2)
+
+a=no1+no2
+b=no1-no2
+c=no1*no3
+
+print("addition=",a)
+print("subtraction=",b)
+print("product=",c)
+
+Assignment 1.D
+#To read the integer from STDIN and perform integer division, float division.
+no1=int(input ("Enter the first no="))
+no2=int(input ("Enter the second no="))
+print("No1=",no1)
+print("No2=",no2)
+
+d=no1/no2
+
+print(int(d))
+print(float(d))
+
+
+
+
+
